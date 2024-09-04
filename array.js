@@ -67,3 +67,4 @@ let array2 = ["a", "b", "c", "d", "e"];
 let array3 = array1.concat(array2);
 let array4 = array3.reverse();
 console.log(array3);
+
