@@ -152,24 +152,24 @@ Ticket fare Calculator
     - Otherwise Regular ticket fare 800 tk
 */
 
-let passenger = "senior citizen";
-let age = "70";
+let passenger = "children";
+let age = "15";
 
 let regularFare = 800;
 let discountedFare = "";
 
-if (passenger = "children") {
+if (passenger == "children") {
            // nested
           if (age < 10) {
             discountedFare = "free";
           } else {
             discountedFare = regularFare;
           }
-} else if (passenger = "student") {
+} else if (passenger == "student") {
 
   discountedFare = regularFare * 0.5;
 
-} else if (passenger = "senior citizen") {
+} else if (passenger == "senior citizen") {
           // nested
           if (age >= 60) {
             discountedFare = regularFare * 0.85;
