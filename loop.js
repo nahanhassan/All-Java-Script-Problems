@@ -147,23 +147,27 @@ console.log(i, sum); */
 
 Generate a multiplication table for number 9
 
+*/
+
+/* let i = 1;
+for (; i <= 10; i++) {
+  console.log(`9 X ${i} = ${9*i}`);
+}
  */
 
-let j = 1;
+/***
 
-while (j <= 10) {
-  console.log(j);
-  j++;
-}
+Implement a countdown timer that counts down from 81 to 65.
 
-// Output: upto 11
+ */
 
-
-
-for (let i = 1; i <= 10; i++) {
+/* let i =81;
+while(i>=65){
   console.log(i);
-}
+  i--
+} */
 
-// Output: upto 10
-
-
+/* let i = 81;
+for (; i >= 65; i--) {
+  console.log(i);
+} */
